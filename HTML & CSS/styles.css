@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.header {
+    height: 65px;
+    font-size: 1.8rem;
+    letter-spacing: 7px;
+    font-weight: 700;
+    background-color: #84D2C5;
+    color: #6F38C5;
+}
+
+.score-bar {
+    height: 80px;
+    background-color: #87A2FB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    color: #003865;
+}
+
+button {
+    margin-top: 10px;
+    width: 140px;
+    height: 30px;
+    border: 3px dashed #CF0A0A;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.0rem;
+    background-color: #F3CCFF;
+}
+
+.container {
+    display: flex;
+    height: 445px;
+    align-items: center;
+    justify-content: center;
+    background-color: #B9FFF8;
+}
+
+.grid {
+    margin-left: 60px;
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #EDEDED;
+}
+
+.mini-grid {
+    margin-left: 100px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #CFD2CF;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+
+    /* background-color: greenyellow; */
+    border: 1px solid black;
+}
+
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+}
+
+
+.grid > .invisible {
+    border: none;
+}
