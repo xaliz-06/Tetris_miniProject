@@ -166,6 +166,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return current.some(index=> (currentPosition + index) % width === 0)
     }
   
+//     Added feature from Youtube 
     function checkRotatedPosition(P){
         P = P || currentPosition       //get current position.  Then, check if the piece is near the left side.
         if ((P+1) % width < 4) {         //add 1 because the position index can be 1 less than where the piece is (with how they are indexed).     
